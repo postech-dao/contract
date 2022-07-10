@@ -7,7 +7,7 @@ struct State {
     /// A counting number
     count: u64,
     /// Authorized transaction submitters
-    auth: Vec<String> // Unordered map would be proper as well
+    auth: Vec<String> // An unordered set (instead of a list) would be proper as well
 }
 ```
 
